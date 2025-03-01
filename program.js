@@ -1,13 +1,10 @@
-var map = L.map('map').setView([4.561153, -74.106594], 16);
+var map = L.map('map').setView([4.58247, -74.12774], 15);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-// Agregar un marcador en el Barrio Inglés
-var marker = L.marker([4.561153, -74.106594]).addTo(map);
-marker.bindPopup("<b>Barrio Inglés</b><br>Localidad Rafael Uribe Uribe, Bogotá.").openPopup();
 
 async function loadPolygon() {
     try {
