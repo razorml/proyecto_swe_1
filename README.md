@@ -1,4 +1,4 @@
-## **Bienvenidos a al portal web del barrio Gran Britalia.**
+## **Bienvenidos a al portal web del barrio Ingles.**
 
 En este repositorio encontrarán los archivos para:
 
